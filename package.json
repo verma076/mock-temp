@@ -1,24 +1,16 @@
 {
-  "name": "mock-temp",
+  "name": "json-mock4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-   
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/verma076/mock-temp.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/verma076/mock-temp/issues"
-  },
-  "homepage": "https://github.com/verma076/mock-temp#readme",
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
+    "json-server": "^0.17.4"
   }
 }
